@@ -1,0 +1,100 @@
+:root {
+    --branco: #fff;
+    --cor-primaria: #7239ea;  /* #7239EA */
+    --cor-fundo: #f6f8fa;
+    --Yellow: #FFC700;
+    --Red: #F1416C;
+    --Green: #50CD89;
+    --Blue: #009EF7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; /* tira os pontos ao lado dos itens da lista */
+    text-decoration: none; /* tira a linha embaixo dos links (tag <a>) */
+}
+
+body {
+    background-color: var(--cor-fundo); /* cor de fundo da página */
+}
+
+.cabecalho {
+    display: flex; /* display flex, um ao lado do outro */
+    align-items: center; /* alinha verticalmente */
+    justify-content: space-between; /* um elemento em cada lado */
+    padding: 8px; /* espaço interno */
+    background-color: var(--cor-primaria); /* cor de fundo  */
+
+}
+
+.cabecalho__titulo {
+    color: var(--branco); /* cor da fonte branco */
+}
+
+.menu__item {
+    
+    
+}
+
+.menu__item a {
+    color: var(--branco); /* cor da fonte dos links do menu */
+    font-weight: 700; /* negrito no texto */
+    padding: 4px 8px;
+}
+
+.borda {
+    border: 1px solid green;
+}
+
+.titulo {
+    font-size: 32px;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.texto-padrao {
+    font-size: 14px;
+}
+
+.legenda {
+    font-size: 12px;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.margin {
+    margin: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.rodape {
+    min-height: 100px;
+    padding: 20px;
+}
+
+/* 
+
+CSS: Cascading Style Sheets
+
+border: 1px solid red;
+
+
+
+* {
+    margin: 0;
+    paddibg: 0;
+    box-sizing: borderbox
+}
+
+body {
+   background-color: red;            
+}               */
